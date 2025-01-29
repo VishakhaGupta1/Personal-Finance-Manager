@@ -9,7 +9,7 @@
 ## Setting up the Project:
 1. **Clone the Repository** (if it's hosted on GitHub):
    ```bash
-   git clone https://github.com/your-repository-link.git
+   git clone https://github.com/VishakhaGupta1/Personal-Finance-Manager
    cd your-repository-folder
    ```
 
