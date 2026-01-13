@@ -209,7 +209,7 @@ Response: 201 Created
 
 #### Get Transactions
 ```
-GET /api/transactions?startDate=2024-01-01&endDate=2024-01-31&category=Salary
+GET /api/transactions?startDate=2024-01-01&endDate=2024-01-31&categoryId=1
 
 Response: 200 OK
 {
@@ -225,13 +225,6 @@ Response: 200 OK
   ]
 }
 ```
-
-Query parameters:
-
-- `startDate`: YYYY-MM-DD (optional)
-- `endDate`: YYYY-MM-DD (optional)
-- `category`: Category name (e.g., "Salary") (optional)
-- `type`: `INCOME` or `EXPENSE` (optional)
 
 #### Update Transaction
 ```
