@@ -21,11 +21,10 @@ jobs:
           cache: 'maven'
 
       - name: Run tests
-        working-directory: Personal_Finance_Manager-main/Personal_Finance_Manager-main
         run: mvn --batch-mode -q clean test
 
       - name: Upload coverage report
         uses: actions/upload-artifact@v4
         with:
           name: jacoco-report
-          path: Personal_Finance_Manager-main/Personal_Finance_Manager-main/target/site/jacoco
+          path: target/site/jacoco
